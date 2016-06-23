@@ -1,2 +1,2 @@
 import Math from './class';
-console.log(Math.sum(2,2));
+console.log(Math.sum(4,11));

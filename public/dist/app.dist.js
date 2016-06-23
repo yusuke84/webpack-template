@@ -46,7 +46,7 @@
 
 	"use strict";
 	var class_1 = __webpack_require__(1);
-	console.log(class_1.default.sum(2, 2));
+	console.log(class_1.default.sum(4, 11));
 
 
 /***/ },

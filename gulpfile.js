@@ -54,10 +54,9 @@ gulp.task('bs-reload', function () {
 
 gulp.task('browser', ['browser-sync', 'webpack'], function () {
     var targets = [
-        './src/**/*.ts',
-        './test/**/*.test.ts'
+        './public/dist/**/*.dist.js'
     ];
-    gulp.watch(targets, ['bs-reload','webpack']);
+    gulp.watch(targets, ['bs-reload']);
 });
 
 gulp.task('default', ['watch']);
