@@ -1,0 +1,38 @@
+{
+  "name": "skyway-c2c",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nttcom-webcore/skyway-c2c.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nttcom-webcore/skyway-c2c/issues"
+  },
+  "homepage": "https://github.com/nttcom-webcore/skyway-c2c#readme",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^4.1.0",
+    "gulp-open": "^2.0.0",
+    "gulp-webpack": "^1.5.0",
+    "karma": "^0.13.22",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^1.0.1",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.5.3",
+    "phantomjs-prebuilt": "^2.1.7",
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "webpack": "^1.13.1"
+  }
+}
